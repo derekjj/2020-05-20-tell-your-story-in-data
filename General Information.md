@@ -43,9 +43,9 @@ In a nutshell: attend them frequently. Attending both the Monday and the Wednesd
 
 In this very useful section, we update our portfolios, tweet and post our projects, and like/comment on each others' portfolios publicly.
 
-1. Post your project URL on social media
-2. Like & comment on each other's posts
-3. Update your own portfolio site
+1. **Post** your project URL on social media
+2. **Like & comment** on each other's posts
+3. **Update** your own portfolio site
 
 ## Links
 
