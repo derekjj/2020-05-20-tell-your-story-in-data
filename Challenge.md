@@ -1,57 +1,73 @@
-# Today's Objective: Noisemaker!
+# Today's Objective: Markdown Editor
 
 ## Objective
 
-Today's objective is to create a music instrument, audio toy, or noisemaker.
+Today's objective is to create your own Markdown Editor.
 
-Over the years, audio has fallen out of favour for mainstream web applications and websites for a variety of reasons, including accessibility, design, and user experience. 
+Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
 
-But rich, interactive web experiences still make full use of Audio APIs. Audio has been a part of browser experiences for decades.
+Some examples of Markdown Editors include:
 
-Here are some cool examples of the Web Audio API in action.
-
-* https://keithwhor.com/music/
-* https://stuartmemo.com/qwerty-hancock/
-* https://stuartmemo.com/smashing-magazine/theremin/
+* [StackEdit](https://stackedit.io/) (simple web-based)
+* [Dillinger](https://dillinger.io/) (simple web-based)
+* [Typora](https://typora.io/) (installed, with advanced features)
+* [hackmd](https://hackmd.io/) (this is a lot more than just a simple markdown editor)
 
 ## Requirements
 
-1. When you start, send a message on Discord saying "I've started".
-1. When you finish, send a message on Discord saying "I've finished".
+Create a Markdown editor, like the above, that has the following components:
 
-Use the Web Audio API (or a library that wraps around it) to make a musical instrument, audio toy, or a noisemaker.
+* Input area
+* Compilation logic (you can use a library for this)
+* Preview panel (no need to do live preview, using a submit button is fine)
 
-The only hard requirement are these: 
-1. Sound must be made in response to user interaction. I.e., you cannot create a simple audio player. Your app must respond to user action events.
-2. You must use the Web Audio API, either directly or indirectly.
+Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
 
-The requirements are intentionally open-ended to allow developers to create an app that suits their skill level.
+## How to build a simple markdown editor
 
-Here are some examples of applications you might decide to make:
+Building a markdown editor is remarkably simple. You can use libraries for a lot of the functionality, and stitch them together using JavaScript logic.
 
-* (Easy  ) A button that creates a sound when the user clicks on it
-* (Easy  ) An area that creates noise as the user drags their mouse over it (see [Theremin](https://stuartmemo.com/smashing-magazine/theremin/))
-* (Medium) A simple synthesizer
-* (Hard  ) A drum machine
-* (Hard  ) A simple game with interesting audio sound effects
+Here are some suggested components for the various components above:
 
-## If you want to win
+### Input Area - Suggested Libraries
 
-Remember: learning is the main reward here. Competing is fun and encouraged, but optional.
+* Ace Editor
 
-However, if you'd like to seriously compete, then keep in mind that more complex and interesting applications will stand a better chance of winning.
+### Compilation Logic
 
-### Suggested Libraries
+* [Showdown](https://github.com/showdownjs/showdown)
+* [markdown-it](https://github.com/markdown-it/markdown-it)
+* [markedjs](https://github.com/markedjs/marked)
 
-[ToneJS](https://github.com/Tonejs/Tone.js/) is a pretty good library that you can use. There are others, but this is one of the simpler ones.
+### Preview Panel
+
+Well, for this one, you just output the compiled HTML to the DOM. :-)
+
+### Bonus points
+
+You get bonus points for any features other than the above that you can successfully demo. 
+
+For example:
+
+* Live preview (where your edits in the input area automatically show up in the preview panel)
+* Syntax highlighting for input area
+* Selectable themes for input area
+* Selectable themes for preview panel
+* Print to PDF
+* Locally installed (using Electron, for example)
+* Responsive design 
+
+That's it!
+
+The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
 
 ## Frameworks:
 
-We recommend you keep it simple and use what you already know. It is completely possible to build this using jQuery. You can use React, Vue, Angular if you wish.
+It is completely possible to build this using vanilla JS or jQuery. You can use React, Vue, Angular if you wish.
 
-## Technology Restrictions
+## Restrictions
 
-* Your project must use JavaScript in a browser environment.
+* Your project must use JavaScript.
 
 There are no other restrictions.
 
@@ -59,5 +75,4 @@ There are no other restrictions.
 
 1. The project is intentionally simple so you can focus on code quality.
 1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+1. Making your project look nice will make it more appealing to employers!
