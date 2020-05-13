@@ -41,7 +41,7 @@ In a nutshell: attend them frequently. Attending both the Monday and the Wednesd
 
 ### Social media & portfolio section
 
-In this section, we update our portfolios, tweet our projects, and like e
+In this very useful section, we update our portfolios, tweet and post our projects, and like/comment on each others' portfolios publicly.
 
 1. Post your project URL on social media
 2. Like & comment on each other's posts
