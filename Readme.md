@@ -1,4 +1,4 @@
-# 2020-05-13 - Markdown Editor
+# 2020-05-18 - Hack the Resume
 
 ## IMPORTANT Announcements
 

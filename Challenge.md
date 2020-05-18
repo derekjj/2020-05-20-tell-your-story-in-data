@@ -1,47 +1,39 @@
-# Today's Objective: Markdown Editor
+# Today's Objective: Hack the Resume
 
 ## Objective
 
-Today's objective is to create your own Markdown Editor.
+Today's objective is to create an easily-updatable resume that is automatically generated from a JSON object!
 
-Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
+# Why a standardized data format for résumés is important
 
-Some examples of Markdown Editors include:
+Having standardized data formats lets people collaborate on building a better ecosystem of tools. Here are a few examples where this has already happened:
 
-* [StackEdit](https://stackedit.io/) (simple web-based)
-* [Dillinger](https://dillinger.io/) (simple web-based)
-* [Typora](https://typora.io/) (installed, with advanced features)
-* [hackmd](https://hackmd.io/) (this is a lot more than just a simple markdown editor)
+1. The `*.mp3` format allows music creators, streaming companies, software companies, open source tools, and listeners focus on making & sharing great music.
+1. The `*.csv` format lets all kinds of software systems talk to each other using imports/exports, while letting human beings retain the ability to clean and format large datasets using tools that understand `*.csv` files.
+1. Image formats like `*.png`, `*.jpg`, `*.gif` 
+1. The `http` protocol
+
+A standardized résumé format, if one arises, enables many cool things:
+* Candidates could automatically apply for 1000's of jobs in bulk.
+* Candidates could simple "install" pre-made themes on top of their resume data.
+* Candidates would experience less bias in the screening process, because résumé design and writing skills become less important for success.
+* Candidates would become much more discoverable, because the structured data allows more efficient sorting/filtering
+* Data scientists could run deeper analyses of the job market on well-structured data.
+* The community could build advanced tools on top of the résumé format that could enable functionality that we haven't yet thought of.
+
+And there are probably many, many more advantages that aren't listed here.
 
 ## Requirements
 
-Create a Markdown editor, like the above, that has the following components:
+Your goal is to create a resume from a simple JSON object. 
 
-* Input area
-* Compilation logic (you can use a library for this)
-* Preview panel (no need to do live preview, using a submit button is fine)
+You can use the [JSON Resume Schema](https://jsonresume.org/schema/) library if you wish, or you can create your own rendering logic.
 
-Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
+The most featureful and visually appealing resume stands a chance of winning.
 
-## How to build a simple markdown editor
+### Suggested Libraries
 
-Building a markdown editor is remarkably simple. You can use libraries for a lot of the functionality, and stitch them together using JavaScript logic.
-
-Here are some suggested components for the various components above:
-
-### Input Area - Suggested Libraries
-
-* Ace Editor
-
-### Compilation Logic
-
-* [Showdown](https://github.com/showdownjs/showdown)
-* [markdown-it](https://github.com/markdown-it/markdown-it)
-* [markedjs](https://github.com/markedjs/marked)
-
-### Preview Panel
-
-Well, for this one, you just output the compiled HTML to the DOM. :-)
+* [JSON Resume Schema](https://jsonresume.org/schema/)
 
 ### Bonus points
 
@@ -49,15 +41,10 @@ You get bonus points for any features other than the above that you can successf
 
 For example:
 
-* Live preview (where your edits in the input area automatically show up in the preview panel)
-* Syntax highlighting for input area
-* Selectable themes for input area
-* Selectable themes for preview panel
+* Live preview (where your edits in an input area automatically show up in the preview panel)
+* Selectable themes for the resume
 * Print to PDF
-* Locally installed (using Electron, for example)
 * Responsive design 
-
-That's it!
 
 The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
 
