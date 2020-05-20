@@ -1,4 +1,4 @@
-# 2020-05-18 - Hack the Resume
+# 2020-05-20 - Tell your story in data, using Google Charts
 
 ## IMPORTANT Announcements
 
