@@ -1,17 +1,29 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    .row
+      .col-12 
+        TimeLine
+    .row
+      .col-12 Random Charts
+    .row
+      .col-12 
+        LineChart
+    .row
+      .col-12 
+        ColumnChart
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimeLine from './components/TimeLine.vue'
+import ColumnChart from './components/ColumnChart.vue'
+import LineChart from './components/LineChart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TimeLine,
+    ColumnChart,
+    LineChart
   }
 }
 </script>
