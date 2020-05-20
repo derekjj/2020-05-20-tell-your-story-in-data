@@ -1,52 +1,32 @@
-# Today's Objective: Hack the Resume
+# Today's Objective: Telling your story with data, using Google Charts
 
 ## Objective
 
-Today's objective is to create an easily-updatable resume that is automatically generated from a JSON object!
+Developers that can prove their ability to build data visualizations are highly prized in the job market. Graphs and charts are among the most common data visualization patterns that are presented to software developers to implement. 
 
-# Why a standardized data format for résumés is important
+But even more impressive is the ability to combine storytelling with data visualizations.
 
-Having standardized data formats lets people collaborate on building a better ecosystem of tools. Here are a few examples where this has already happened:
-
-1. The `*.mp3` format allows music creators, streaming companies, software companies, open source tools, and listeners focus on making & sharing great music.
-1. The `*.csv` format lets all kinds of software systems talk to each other using imports/exports, while letting human beings retain the ability to clean and format large datasets using tools that understand `*.csv` files.
-1. Image formats like `*.png`, `*.jpg`, `*.gif` 
-1. The `http` protocol
-
-A standardized résumé format, if one arises, enables many cool things:
-* Candidates could automatically apply for 1000's of jobs in bulk.
-* Candidates could simple "install" pre-made themes on top of their resume data.
-* Candidates would experience less bias in the screening process, because résumé design and writing skills become less important for success.
-* Candidates would become much more discoverable, because the structured data allows more efficient sorting/filtering
-* Data scientists could run deeper analyses of the job market on well-structured data.
-* The community could build advanced tools on top of the résumé format that could enable functionality that we haven't yet thought of.
-
-And there are probably many, many more advantages that aren't listed here.
+Today's objective is to create a chart-based website that will tell your own story in a beautiful graphical format.
 
 ## Requirements
 
-Your goal is to create a resume from a simple JSON object. 
+Your goal is to tell a story using data. This sounds more scary than it actually is!
 
-You can use the [JSON Resume Schema](https://jsonresume.org/schema/) library if you wish, or you can create your own rendering logic.
+Take a look at [Google Charts](https://developers.google.com/chart/interactive/docs/gallery). All the hard work is done for you. All you have to do is build your story using data (or find data, then reshape it to match the story you are trying to tell).
 
-The most featureful and visually appealing resume stands a chance of winning.
+The following graphs are particularly useful for telling stories:
+* [Geo Chart](https://developers.google.com/chart/interactive/docs/gallery/geochart) - you can talk about places you visited, where you've travelled to,
+* [Org Chart](https://developers.google.com/chart/interactive/docs/gallery/orgchart)
+
+The most featureful and visually appealing story stands a chance of winning.
 
 ### Suggested Libraries
 
-* [JSON Resume Schema](https://jsonresume.org/schema/)
+* [Google Charts](https://developers.google.com/chart/interactive/docs/gallery)
 
-### Bonus points
+### Example
 
-You get bonus points for any features other than the above that you can successfully demo. 
-
-For example:
-
-* Live preview (where your edits in an input area automatically show up in the preview panel)
-* Selectable themes for the resume
-* Print to PDF
-* Responsive design 
-
-The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
+You can take a look at my own example here: https://codepen.io/monarchjhaveri/pen/YzydJeV
 
 ## Frameworks:
 

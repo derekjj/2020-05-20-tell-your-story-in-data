@@ -2,9 +2,7 @@
 
 ## IMPORTANT Announcements
 
-1. We are no longer do code reviews. We are also no longer forking + creating pull requests. This change is intended to streamline the process and make things more fun for everyone, while making it possible to create a portfolio-ready piece by the end of the afternoon.
-1. Voting has been simplified to a 10-point scale based on the deployed project.
-1. The schedule has changed. Please see below.
+NO HACKATHON this coming Monday
 
 ## Start here:
 
@@ -16,9 +14,9 @@
 
 | Start | End  | Description |
 |-------|------|-------------|
-| 12:00pm EST  | 3:50pm EST | Programming. Solo, heads-down. |
-| 3:50pm EST  | 4:00pm EST | Submitting + Voting. |
-| 4:00pm EST  | 4:30pm EST | Social media & portfolio section |
+| 12:00pm EST  | 3:50pm EST | Programming |
+| 3:50pm EST  | 4:00pm EST | Voting |
+| 4:00pm EST  | 4:30pm EST | Sharing (very useful for job seekers) |
 
 ## Want to earn open source contributions?
 
